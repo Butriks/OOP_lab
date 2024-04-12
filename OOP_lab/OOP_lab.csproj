@@ -55,6 +55,23 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Logs.cs" />
+    <Compile Include="LongTerm.cs" />
+    <Compile Include="MainAppWindow.xaml.cs">
+      <DependentUpon>MainAppWindow.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Note.cs" />
+    <Compile Include="NoteList.cs" />
+    <Compile Include="Task.cs" />
+    <Compile Include="TaskList.cs" />
+    <Compile Include="TaskManager.cs" />
+    <Compile Include="User.cs" />
+    <Compile Include="WatermarkConverter.cs" />
+    <Compile Include="WatermarkHelper.cs" />
+    <Page Include="MainAppWindow.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
